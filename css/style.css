@@ -1,0 +1,136 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+
+.headerPrincipal{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    _background-color: red;
+    position: absolute;
+    z-index: 2;
+}
+
+.headerLogo{
+    width: 90px;
+    position: relative;
+    margin: 30px 0px 0px 70px;
+}
+
+.navBar{
+    height: 90px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+    _background-color: blue;
+    margin: 30px 0px 0px 0px;
+}
+
+.comoFunciona:hover{
+    cursor: pointer;
+    color: rgb(70, 43, 226);
+}
+
+.contacto:hover{
+    cursor: pointer;
+    color: rgb(70, 43, 226);
+
+}
+
+.ingresar{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 30px;
+
+}
+
+.ingresar:hover{
+    cursor: pointer;
+    color: rgb(70, 43, 226);
+    border: 3px solid rgb(70, 43, 226);
+
+}
+
+.imgHeader{
+    height: 50rem;
+    width: auto;
+   background-image: url(../assets/back2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.degCont{
+    width: 100%;
+    height: 71.5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801) 5%, transparent 80%);
+    position:absolute;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+
+}
+
+.fatherCont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+}
+
+.contForms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+
+.saludoMensaje{
+    height: 100px;
+    width: 70%;
+    background-color: rgb(0, 197, 0);
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.weatherReport{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.weatherFather{
+    display: flex;
+    justify-content: end;
+    color: white;
+}
